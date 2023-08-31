@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set CSS variables for easy changes */
+
+:root {
+  --bg-color: #CCCCFF;
+  --nav-bg-color: #5D3FD3;
+  --font-family: 'Poppins', sans-serif;
+  --nav-link-hover: #FFEA47;
+  --logo-span-color: #FF5F13;
+}
+
+body {
+    background-image:url(course.jpg);
+    background-size:cover ;
+    background-position: 0%;
+    font-family: var(--font-family);
+  background-color: var(--bg-color);
+  height: 100vh;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #4a4747;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.nav-links {
+  display: flex;
+}
+  li {
+    list-style: none;
+    margin: 0 2.5rem;
+    font-weight: 600;
+    font-size: 22px;
+  }
+    li:hover {
+      color:blue;
+      cursor: pointer;
+    }
+    
+    .nav-links:active {
+      transform: scale(0.98);
+    }
+  
+
+
+.logo {
+   font-weight: 600;
+   font-size: 28px;
+
+}
+
+.para{
+    margin-left: 30px;
+    font-size: x-large;
+    text-align: justify;
+    margin-right: 30px;
+    color: #fff;
+}
+
+iframe.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
